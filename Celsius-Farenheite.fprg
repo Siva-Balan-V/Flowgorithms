@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Celsius-Farenheite"/>
+        <attribute name="authors" value="sivab"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 03:34:13 PM"/>
+        <attribute name="created" value="c2l2YWI7REVTS1RPUC1WTU84QjYwOzIwMjYtMDEtMDY7MDM6MjI6NDUgUE07Mjg1OQ=="/>
+        <attribute name="edited" value="c2l2YWI7REVTS1RPUC1WTU84QjYwOzIwMjYtMDEtMDY7MDM6MzQ6MTMgUE07MTsyOTY1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="f, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the Celsius&quot;" newline="True"/>
+            <input variable="c"/>
+            <assign variable="f" expression="(c*(9/5))+32"/>
+            <output expression="&quot;Farenheite&quot;" newline="True"/>
+            <output expression="f" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
